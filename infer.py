@@ -1,3 +1,5 @@
+
+
 import argparse
 from ultralytics import YOLO
 
@@ -5,13 +7,13 @@ parser = argparse.ArgumentParser(description="Yolov8 inference script")
 parser.add_argument(
     "--model",
     type=str,
-    default="runs/detect/train/yolov8s_100epochs/weights/best.pt",
+    default="/Users/thanakrit/Taco_3/litter-detection/runs/detect/train/yolov8s_100epochs/weights/best.pt",
     help="path to yolo weights"
     )
 parser.add_argument(
     "--source",
     type=str,
-    default="assets/litter.mp4",
+    default="/Users/thanakrit/Taco_3/litter-detection/assets/test.jpg",
     help="path to data to infer on"
 )
 parser.add_argument(
