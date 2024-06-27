@@ -1,5 +1,4 @@
 
-
 import argparse
 from ultralytics import YOLO
 
@@ -13,7 +12,7 @@ parser.add_argument(
 parser.add_argument(
     "--source",
     type=str,
-    default="/Users/thanakrit/Taco_3/litter-detection/assets/test.jpg",
+    default="/Users/thanakrit/Taco_3/litter-detection/assets/why-recycle-1200.jpg",
     help="path to data to infer on"
 )
 parser.add_argument(
